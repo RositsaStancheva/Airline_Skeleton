@@ -7,7 +7,7 @@ import javax.xml.bind.annotation.XmlElement;
 @XmlAccessorType(XmlAccessType.FIELD)
 public class ToTownNameDto {
 
-    @XmlElement(name = "to-town")
+    @XmlElement(name = "to-town" )
     private String name;
 
     public String getName() {
